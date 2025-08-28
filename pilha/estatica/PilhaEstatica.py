@@ -1,4 +1,4 @@
-from Empilhavel import Empilhavel
+from pilha.estatica.Empilhavel import Empilhavel
 from excecoes.Excecoes import EstaCheiaException, EstaVaziaException
 
 class PilhaEstatica(Empilhavel):
@@ -68,10 +68,10 @@ class PilhaEstatica(Empilhavel):
         """
         Retorna uma representação em string dos elementos da pilha, do topo até a base.
         """
-        resultado = "["
+        resultado = "\n"
         for i in range(self.topo, -1, -1):
             resultado += str(self.dados[i])
             if i != 0:
-                resultado += ","
-        resultado += "]"
+                resultado += "\n"
+        resultado += " "
         return resultado
