@@ -3,42 +3,89 @@ Este repositório contém o material da disciplina de **Estrutura de Dados**. Aq
 
 ---
 
-## 🗂 Estrutura do Repositório (em construção)
-```
-ESTRUTURA_DE_DADOS/
-│
-├── excecoes/ # Módulo de tratamento de exceções \n
-│ ├── Excecoes.py
-│ └── README.md
-│
-├── exercicios/
-│ └── lista_1/
-│ └── questao1.py
-│
-├── fila/ # Implementações de fila.
-│ ├── estatica/
-│ └── README.md
-│
-├── heap/ # Implementações de heap.
-│ ├── estatica/
-│ └── README.md
-│
-├── lista/ # Implementações de lista.
-│ ├── estatica/
-│ └── README.md
-│
-├── pilha/ # Implementações de pilha.
-│ ├── estatica/
-│ └── README.md
-│
-├── testes/ # Scripts de testes
-│ ├── teste.py
-│ └── README.md
-│
-├── .gitignore
-└── README.md # Este arquivo
-```
----
+## Estrutura atual do projeto
+
+- \estrutura_de_dados
+  - README.md (este arquivo)
+  - .gitignore
+  - venv
+  - estruturas_de_dados/
+    - arvores/
+      - abp/
+      - avl/
+      - avp/
+      - bm/
+      - heap/
+    - fila/
+      - README.md
+      - dinamica/
+        - src/
+        - teste/
+      - estatica/
+        - fila/
+          - Enfileravel.py
+          - FilaEstatica.py
+      - fila_circular/
+        - filaCircular.py
+      - fila_com_pilhas/
+        - filaComPilhas.py
+      - fila_dupla_termicacao/
+        - enfileiravelDuplaTerminacao.py
+        - filaComDuplaTermicacao.py
+    - hashmap/
+      - estatica/
+    - lista/
+      - README.md
+      - dinamica/
+      - estatica/
+        - lista/
+          - Listavel.py
+        - lista_circular/
+          - ListaCircular.py
+    - ordenacao/
+    - pilha/
+      - README.md
+      - dinamica/
+        - NoDulo.py
+        - PilhaDinamica.py
+      - estatica/
+        - pilha/
+          - Empilhavel.py
+          - Pilha.py
+        - pilha_com_filas/
+          - pilhacomFilas.py
+        - pilha_dupla/
+          - pilhaDupla.py
+        - pilha_invertida/
+          - pilhaInvertida.py
+  - utils/
+    - cli/
+      - arvoreCli.py
+      - filaCli.py
+      - hashCli.py
+      - listaCli.py
+      - ordenacaoCli.py
+      - pilhaCli.py
+    - excecoes/
+      - excecoesArvores.py
+      - excecoesGerais.py
+      - excecoesPilhas.py
+      - execoesFilas.py
+      - excecoesHash.py
+      - execoesLista.py
+      - excecoesOrdenacao.py
+  - testes/
+    - arvores/
+    - fila/
+    - hashmap/
+    - lista/
+    - ordenacao/
+    - pilha/
+  - estudos/
+    - primeira_unidade/
+    - segunda_unidade/
+    - terceira_unidade/
+
 
 ## ▶️ Como Executar os Códigos
 
@@ -104,6 +151,6 @@ Cada pasta do repositório conterá:
 
 ---
 
-📫 Contribuições
+## 📫 Contribuições
 
 Este repositório pode ser atualizado ao longo do semestre. Sinta-se livre para abrir issues ou pull requests caso queira contribuir com melhorias ou sugestões.
